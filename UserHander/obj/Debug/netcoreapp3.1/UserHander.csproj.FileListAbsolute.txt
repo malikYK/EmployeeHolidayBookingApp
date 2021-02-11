@@ -1,0 +1,13 @@
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\obj\Debug\netcoreapp3.1\UserHander.csprojAssemblyReference.cache
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\obj\Debug\netcoreapp3.1\UserHander.AssemblyInfoInputs.cache
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\obj\Debug\netcoreapp3.1\UserHander.AssemblyInfo.cs
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\obj\Debug\netcoreapp3.1\UserHander.csproj.CoreCompileInputs.cache
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\bin\Debug\netcoreapp3.1\UserHander.exe
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\bin\Debug\netcoreapp3.1\UserHander.deps.json
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\bin\Debug\netcoreapp3.1\UserHander.runtimeconfig.json
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\bin\Debug\netcoreapp3.1\UserHander.runtimeconfig.dev.json
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\bin\Debug\netcoreapp3.1\UserHander.dll
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\bin\Debug\netcoreapp3.1\UserHander.pdb
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\obj\Debug\netcoreapp3.1\UserHander.dll
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\obj\Debug\netcoreapp3.1\UserHander.pdb
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHander\obj\Debug\netcoreapp3.1\UserHander.genruntimeconfig.cache

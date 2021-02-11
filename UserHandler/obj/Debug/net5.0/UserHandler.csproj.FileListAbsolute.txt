@@ -1,0 +1,5 @@
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\net5.0\UserHandler.csprojAssemblyReference.cache
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\net5.0\UserHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\net5.0\UserHandler.AssemblyInfoInputs.cache
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\net5.0\UserHandler.AssemblyInfo.cs
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\net5.0\UserHandler.csproj.CoreCompileInputs.cache

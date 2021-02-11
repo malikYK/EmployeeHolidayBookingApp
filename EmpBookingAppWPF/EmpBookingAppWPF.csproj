@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="beautiful-color-ui-gradients-backgrounds-socialive.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserHander\EmpUserHanderBusiness.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="beautiful-color-ui-gradients-backgrounds-socialive.png" />
+  </ItemGroup>
+
+</Project>

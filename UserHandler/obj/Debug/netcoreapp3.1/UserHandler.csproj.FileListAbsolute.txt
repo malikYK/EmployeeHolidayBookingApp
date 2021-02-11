@@ -1,0 +1,13 @@
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\bin\Debug\netcoreapp3.1\UserHandler.exe
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\bin\Debug\netcoreapp3.1\UserHandler.deps.json
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\bin\Debug\netcoreapp3.1\UserHandler.runtimeconfig.json
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\bin\Debug\netcoreapp3.1\UserHandler.runtimeconfig.dev.json
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\bin\Debug\netcoreapp3.1\UserHandler.dll
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\bin\Debug\netcoreapp3.1\UserHandler.pdb
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\netcoreapp3.1\UserHandler.csprojAssemblyReference.cache
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\netcoreapp3.1\UserHandler.AssemblyInfoInputs.cache
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\netcoreapp3.1\UserHandler.AssemblyInfo.cs
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\netcoreapp3.1\UserHandler.csproj.CoreCompileInputs.cache
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\netcoreapp3.1\UserHandler.dll
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\netcoreapp3.1\UserHandler.pdb
+C:\Users\mjnlo\Desktop\Work-Sparta\EmpHolidayBookingApp\UserHandler\obj\Debug\netcoreapp3.1\UserHandler.genruntimeconfig.cache
