@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="beautiful-color-ui-gradients-backgrounds-roseanna.png" />
     <None Remove="beautiful-color-ui-gradients-backgrounds-socialive.png" />
   </ItemGroup>
 
@@ -15,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="beautiful-color-ui-gradients-backgrounds-roseanna.png" />
     <Resource Include="beautiful-color-ui-gradients-backgrounds-socialive.png" />
   </ItemGroup>
 

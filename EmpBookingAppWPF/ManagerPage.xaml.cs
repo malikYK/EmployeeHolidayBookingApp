@@ -24,11 +24,58 @@ namespace EmpBookingAppWPF
         {
             InitializeComponent();
             PopulateListBox();
-            
+
+
+
         }
         private void PopulateListBox()
         {
-            AllRequestsList.ItemsSource = _userhandler.retriveAllRequets();
+            RequestList.ItemsSource = _userhandler.retriveAllRequets();
         }
-    }
+
+        private void PopulateHolidayRequestLogFields()
+        {
+            if (_userhandler.SelectedRequest != null)
+            {
+                EmployeesTB.Text = _userhandler.SelectedRequest.EmployeeID.ToString();
+                HolidaysTB.Text = _userhandler.SelectedRequest.HolidayId;
+                ManagersTB.Text = _userhandler.SelectedRequest.ManagerID.ToString();
+                StartDateTB.Text = _userhandler.SelectedRequest.StartDate.ToString(("dd/MM/yyyy"));
+                EndDateTB.Text = _userhandler.SelectedRequest.EndDate.ToString(("dd/MM/yyyy"));
+            }
+        }
+        
+
+        private void RequestSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (RequestList.SelectedItem != null)
+            {
+                _userhandler.setselectedRequest(RequestList.SelectedItem);
+                PopulateHolidayRequestLogFields();
+            }
+        }
+        private void ClearTBs() 
+        {
+            EmployeesTB.Text = "";
+            HolidaysTB.Text = "";
+            ManagersTB.Text = "";
+            StartDateTB.Text = "";
+            EndDateTB.Text = "";
+        }
+
+        private void ConfirmButton_Click(object sender, RoutedEventArgs e)
+        {
+            int HRLID = _userhandler.SelectedRequest.HolidayRequestLogID;
+            string _status = StatusComboBox.Text;
+            _userhandler.Approve_DenyRequestd(HRLID, _status);
+
+            PopulateListBox();
+            
+            ClearTBs();
+
+
+
+
+        }
+    }   
 }

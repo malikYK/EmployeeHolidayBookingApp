@@ -18,6 +18,24 @@ namespace EmpUserHanderBusiness
                 db.SaveChanges();
             }
         }
+        public HolidayRequestLog SelectedRequest { get; set; }
+        public void setselectedRequest(object _selectedRequest)
+        {
+            SelectedRequest = (HolidayRequestLog)_selectedRequest;
+        }
+
+        public void Approve_DenyRequestd(int HRLID, string status) 
+        {
+            using (var db = new SouthwindContext())
+            {
+                SelectedRequest = db.HolidayRequestLogs.Where(r => r.HolidayRequestLogID == HRLID).FirstOrDefault();
+                {
+                    SelectedRequest.Status = status;
+                    db.SaveChanges();
+                }
+            }
+        }
+
 
 
         

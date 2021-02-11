@@ -9,17 +9,17 @@
 
     <Grid>
         <TextBlock Text="EMPLOYEE PAGE" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="24" Margin="10,10,0,0"/>
-        <Label Content="Managers" HorizontalAlignment="Left" Margin="467,117,0,0" VerticalAlignment="Top" Height="44" Width="72"/>
-        <Label Content="Holiday" HorizontalAlignment="Left" Margin="467,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Managers" HorizontalAlignment="Left" Margin="467,117,0,0" VerticalAlignment="Top" Height="44" Width="72" Foreground="White"/>
+        <Label Content="Holiday" HorizontalAlignment="Left" Margin="467,168,0,0" VerticalAlignment="Top" Foreground="White"/>
         <ComboBox x:Name="ManagersComboBox" HorizontalAlignment="Left" Margin="544,121,0,0" VerticalAlignment="Top" Width="193" Height="29"/>
         <ComboBox x:Name="Holiday_typecomboBox" HorizontalAlignment="Left" Margin="544,168,0,0" VerticalAlignment="Top" Width="193" Height="26"/>
         <DatePicker x:Name="StartDatePicker" HorizontalAlignment="Left" Margin="544,223,0,0" VerticalAlignment="Top" Width="193"/>
         <DatePicker x:Name="EndDatePicker" HorizontalAlignment="Left" Margin="544,265,0,0" VerticalAlignment="Top" Width="193"/>
         <Button Content="Make Request" HorizontalAlignment="Left" Margin="544,331,0,0" VerticalAlignment="Top" Height="48" Width="168" Click="Button_Click"/>
         <ListBox x:Name="RequestListBox" Margin="10,47,425,10" Background="{x:Null}" Foreground="White" FontWeight="Bold"/>
-        <Label Content="Start Date" HorizontalAlignment="Left" Margin="467,223,0,0" VerticalAlignment="Top"/>
-        <Label Content="End Date" HorizontalAlignment="Left" Margin="467,264,0,0" VerticalAlignment="Top"/>
-        <Label Content="Employees" HorizontalAlignment="Left" Margin="467,55,0,0" VerticalAlignment="Top" Height="44" Width="72"/>
+        <Label Content="Start Date" HorizontalAlignment="Left" Margin="467,223,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="End Date" HorizontalAlignment="Left" Margin="467,264,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Employees" HorizontalAlignment="Left" Margin="467,55,0,0" VerticalAlignment="Top" Height="44" Width="72" Foreground="White"/>
         <ComboBox x:Name="emplpoyessComboBox" HorizontalAlignment="Left" Margin="544,59,0,0" VerticalAlignment="Top" Width="193" Height="29"/>
     </Grid>
 </Page>

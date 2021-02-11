@@ -4,19 +4,36 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EmpBookingAppWPF"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="ManagerPage">
+      mc:Ignorable="d"
+      Title="ManagerPage" Height="478" Width="849">
 
     <Grid>
+
         <TextBlock Text="Manager Page" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24" Margin="21,21,0,0"/>
-        <ListView x:Name="AllRequestsList" Margin="42,71,463,17">
+        <Label Content="Managers" HorizontalAlignment="Left" Margin="437,123,0,0" VerticalAlignment="Top" Height="52" Width="107" Foreground="White" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Holiday" HorizontalAlignment="Left" Margin="437,184,0,0" VerticalAlignment="Top" Foreground="White" Height="31" Width="75" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Start Date" HorizontalAlignment="Left" Margin="437,249,0,0" VerticalAlignment="Top" Foreground="White" Height="31" Width="93" FontWeight="Bold" FontSize="16"/>
+        <Label Content="End Date" HorizontalAlignment="Left" Margin="437,298,0,0" VerticalAlignment="Top" Foreground="White" Height="31" Width="86" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Employees" HorizontalAlignment="Left" Margin="437,49,0,0" VerticalAlignment="Top" Height="52" Width="107" Foreground="White" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="EmployeesTB" HorizontalAlignment="Left" Margin="590,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Height="21" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name="HolidaysTB" HorizontalAlignment="Left" Margin="590,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Height="21" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name ="ManagersTB" HorizontalAlignment="Left" Margin="590,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Height="21" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name="StartDateTB" HorizontalAlignment="Left" Margin="590,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Height="21" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name="EndDateTB" HorizontalAlignment="Left" Margin="590,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Height="22" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
+        <Button x:Name="ConfirmButton" Content="Confirm Request" HorizontalAlignment="Left" Margin="595,420,0,0" VerticalAlignment="Top" Height="30" Width="162" Click="ConfirmButton_Click"/>
+        <ComboBox x:Name="StatusComboBox" HorizontalAlignment="Left" Margin="595,364,0,0" VerticalAlignment="Top" Width="169" RenderTransformOrigin="1.296,0.528" Height="27">
+            <ComboBoxItem Background="White" Content="Approved" FontWeight="Bold" FontSize="14"/>
+            <ComboBoxItem Background="White" Content="Denied" FontWeight="Bold" FontSize="14"/>
+        </ComboBox>
+
+
+        <ListView x:Name="RequestList" Margin="21,75,442,28" SelectionChanged="RequestSelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <TextBox Name="EmployeeTextBox" HorizontalAlignment="Left" Margin="509,71,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" Height="26"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="437,360,0,0" VerticalAlignment="Top" Foreground="White" Height="31" Width="86" FontWeight="Bold" FontSize="16"/>
     </Grid>
 </Page>
