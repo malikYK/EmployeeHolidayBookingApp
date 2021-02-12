@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EmpHolidayBookingData.Employee">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAMAEAAAAABAAAAAAACAABAIAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmpHolidayBookingData.Holiday">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAhAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Holiday.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmpHolidayBookingData.HolidayRequestLog">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAADAAAEAABIAAggCAAABAAAAAAAAEAAAAA=</HashCode>
+      <FileName>HolidayRequestLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmpHolidayBookingData.Manager">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEAAAIAAABCAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

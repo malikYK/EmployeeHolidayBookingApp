@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpHolidayBookingAppData", "EmpHolidayBookingApp\EmpHolidayBookingAppData.csproj", "{F8C09476-D111-4001-A8C5-7CBA5F70DA7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpUserHanderBusiness", "UserHander\EmpUserHanderBusiness.csproj", "{581636E7-2FA3-4856-A091-D5F2565F33DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpUserHandlerBusiness", "UserHander\EmpUserHandlerBusiness.csproj", "{581636E7-2FA3-4856-A091-D5F2565F33DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpBookingAppWPF", "EmpBookingAppWPF\EmpBookingAppWPF.csproj", "{B7D699C4-BD43-4E82-84FD-263A852A9668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpBookingAppWPF", "EmpBookingAppWPF\EmpBookingAppWPF.csproj", "{B7D699C4-BD43-4E82-84FD-263A852A9668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHolidayBookingTesting", "EmployeeHolidayBookingTesting\EmployeeHolidayBookingTesting.csproj", "{5FFB3654-2B40-4F67-8C11-F1ED96362F2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B7D699C4-BD43-4E82-84FD-263A852A9668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7D699C4-BD43-4E82-84FD-263A852A9668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7D699C4-BD43-4E82-84FD-263A852A9668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFB3654-2B40-4F67-8C11-F1ED96362F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFB3654-2B40-4F67-8C11-F1ED96362F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFB3654-2B40-4F67-8C11-F1ED96362F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFB3654-2B40-4F67-8C11-F1ED96362F2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

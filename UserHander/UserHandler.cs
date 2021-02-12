@@ -36,12 +36,6 @@ namespace EmpUserHanderBusiness
             }
         }
 
-
-
-        
-
-
-
         public List<HolidayRequestLog> retriveAllRequets()
         {
             using (var db = new SouthwindContext())
@@ -54,10 +48,14 @@ namespace EmpUserHanderBusiness
         public string calculateHolidayLengthMessage(int duration, string holtype)
         {
             if (duration >= 14 && holtype == "ANNU")
-            { 
-                return  "Please Contact manager about annual holidays that are expexted 2 weeks or more";
+            {
+                return "Please Contact manager about annual leave holidays that are expexted to be 2 weeks or more";
             }
-            else 
+            else if (duration >= 5 && holtype == "SICK")
+            {
+                return "Please Contact manager about sick leave that is expexted to be 5 days or more";
+            }
+            else
             {
                 return "";
             }
@@ -66,6 +64,10 @@ namespace EmpUserHanderBusiness
         public bool calculateHolidayLengthCheck(int duration, string holtype)
         {
             if (duration >= 14 && holtype == "ANNU")
+            {
+                return false;
+            }
+            else if (duration >= 5 && holtype == "SICK")
             {
                 return false;
             }
@@ -98,30 +100,7 @@ namespace EmpUserHanderBusiness
             }
         }
 
-        public List<HolidayRequestLog> RequestLogs(int Num)
-        {
-            using (var db = new SouthwindContext())
-            {
-                return db.HolidayRequestLogs.ToList();
-                //var HolRequestsQuery =
-                //    from holidayRequestLog in db.HolidayRequestLogs
-                //    where holidayRequestLog.EmployeeID == Num
-                //    join employees in db.Employees on holidayRequestLog.EmployeeID equals employees.EmployeeID
-                //    join holidays in db.Holidays on holidayRequestLog.HolidayId equals holidays.HolidayId
-                //    join managers in db.Managers on holidayRequestLog.ManagerID equals managers.ManagerID
-                //    select new
-                //    {
-                //        EName = employees.First_Name + " " + employees.Last_Name,
-                //        holType = holidays.HolidayType,
-                //        holStart = holidayRequestLog.StartDate,
-                //        holEnd = holidayRequestLog.EndDate,
-                //        Manager = managers.First_Name + " " + managers.Last_Name
-                //    };
-
-                
-            }
-        }
-
+       
 
 
 

@@ -20,7 +20,11 @@
         <TextBox x:Name ="ManagersTB" HorizontalAlignment="Left" Margin="590,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Height="21" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
         <TextBox x:Name="StartDateTB" HorizontalAlignment="Left" Margin="590,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Height="21" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
         <TextBox x:Name="EndDateTB" HorizontalAlignment="Left" Margin="590,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Height="22" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
-        <Button x:Name="ConfirmButton" Content="Confirm Request" HorizontalAlignment="Left" Margin="595,420,0,0" VerticalAlignment="Top" Height="30" Width="162" Click="ConfirmButton_Click"/>
+        <Button x:Name="ConfirmButton" Content="Confirm Request" HorizontalAlignment="Left" Margin="595,420,0,0" VerticalAlignment="Top" Height="30" Width="162" Click="ConfirmButton_Click" FontWeight="Bold" Foreground="Black">
+            <Button.Background>
+                <ImageBrush ImageSource="/beautiful-color-ui-gradients-backgrounds-roseanna.png"/>
+            </Button.Background>
+        </Button>
         <ComboBox x:Name="StatusComboBox" HorizontalAlignment="Left" Margin="595,364,0,0" VerticalAlignment="Top" Width="169" RenderTransformOrigin="1.296,0.528" Height="27">
             <ComboBoxItem Background="White" Content="Approved" FontWeight="Bold" FontSize="14"/>
             <ComboBoxItem Background="White" Content="Denied" FontWeight="Bold" FontSize="14"/>

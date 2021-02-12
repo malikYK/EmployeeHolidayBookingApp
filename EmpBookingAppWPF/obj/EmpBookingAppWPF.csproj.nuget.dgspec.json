@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHanderBusiness.csproj": {
-                "projectPath": "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHanderBusiness.csproj"
+              "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHandlerBusiness.csproj": {
+                "projectPath": "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHandlerBusiness.csproj"
               }
             }
           }
@@ -43,6 +43,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -103,17 +113,25 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.3, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
             }
           },
           "imports": [
@@ -135,12 +153,12 @@
         }
       }
     },
-    "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHanderBusiness.csproj": {
+    "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHandlerBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHanderBusiness.csproj",
-        "projectName": "EmpUserHanderBusiness",
-        "projectPath": "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHanderBusiness.csproj",
+        "projectUniqueName": "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHandlerBusiness.csproj",
+        "projectName": "EmpUserHandlerBusiness",
+        "projectPath": "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\EmpUserHandlerBusiness.csproj",
         "packagesPath": "C:\\Users\\mjnlo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mjnlo\\Desktop\\Work-Sparta\\EmpHolidayBookingApp\\UserHander\\obj\\",
         "projectStyle": "PackageReference",
@@ -174,6 +192,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
