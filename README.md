@@ -41,16 +41,17 @@ complete All manager functionality and build tests for the business layer
 #### Throughout this project, I learnt a lot:
 - The importance of encapsulation
 - Testing
-- how to the full stack system be cohesive but work independently
+- How to the full stack system be cohesive but work independently
 - The usefulness of scrum
 - Time Management
 - How to use a Kanban board
 #### what I would do differently would be :
--  use git and git hub more effectively
-- used an extension for WPF to give the GUI a different look
+- Use git and git hub more effectively
+- Used an extension for WPF to give the GUI a different look
+- Document my sprints better
 #### In the future, I plan to: 
 - Develop the manager side of the system more
-- add a login and user seesion function to the project
+- Add a login and user seesion function to the project
 - Potentialy convert  the employee side to a web service or web application
 
 ## User guide
