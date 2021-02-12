@@ -37,9 +37,30 @@ complete All manager functionality and build tests for the business layer
 
 ### sprint retrospective
 
-## overall
-
+## overall RetroSpective
+Throughout this project, I learnt a lot:
+- The importance of encapsulation
+- Testing
+- how to the full stack system be cohesive but work independently
+- The usefulness of scrum
+- Time Management
+- How to use a Kanban board
+what I would do differently would be :
+-  use git and git hub more effectively
+- used an extension for WPF to give the GUI a different look
+In the future, I plan to: 
+- Develop the manager side of the system more
+- add a login and user seesion function to the project
+- Potentialy convert  the employee side to a web service or web application
 
 ## User guide
-
+As an employee : 
+- You will choose the employee side of the app
+- Then on the right you can see all the holiday requests that have been booked, approved and denied
+- On the left side you can see an area that allows you to enter a holiday request, you will just have to choose your name, the holiday type, your manager and the start and end dates of the planned leave. 
+As a manager: 
+- You will choose the managers page  
+- You can see all the holiday requests that have been booked, approved and denied
+- You can select a specifc employees request from that list
+- When a request is chosen you will be able to approve and deny requets
 
